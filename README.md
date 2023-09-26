@@ -9,4 +9,4 @@ If you wanted to separate out the methods into different interfaces, you'd have 
 ## Protocol example
 Protocols provide flexibility to work with legacy code, allow interfaces to be defined where they are needed, and avoid multiple inheritance, which is always a good thing.
 
-Try commenting out the get_status_update implementation in devices to see that the error is found by linting only where the object is used as an expected interface, and not upon creation. If you use protocols you might want to use them with a static type checker such as mypy or pyright.
+Try commenting out the get_status_update implementation in devices to see that the error is found by linting only where the object is used as an expected interface, and not upon creation. If you use protocols you might want to use them with a static type checker such as mypy.
