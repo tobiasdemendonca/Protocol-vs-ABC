@@ -4,7 +4,7 @@ Protocols fascilitate the interface segregation principle, one of the core OOP S
 ## Abstract base classes example
 Try commenting out an abstract method in device.py. Then comment out a method in devices.py.You should see by the linting (use "python.analysis.typeCheckingMode": "basic" to see it linted in VSCode settings) that you won't be able to create an object if it doesn't implement all methods in the abstract base class.
 
-If you wanted to separate out the methods into different interfaces, you'd have to go down a multiple inheritance route, which isn't always flexible.
+If you wanted to separate out the methods into different interfaces, you'd have to go down a multiple inheritance route.
 
 ## Protocol example
 Protocols provide flexibility to work with legacy code, allow interfaces to be defined where they are needed, and avoid multiple inheritance, which is always a good thing.
